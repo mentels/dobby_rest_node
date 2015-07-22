@@ -1,0 +1,13 @@
+{application, dobby_rest_node,
+ [
+  {description, ""},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  lager,
+                  erl_sshd,
+                  dobby_rest
+                 ]},
+  {mod, {dobby_rest_node_app, []}},
+  {env, []}
+ ]}.
