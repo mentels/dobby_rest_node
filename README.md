@@ -40,6 +40,8 @@ to the `erl_sshd` section of `rel/files/sys.config`.
 _rel/dobby_rest_node/bin/dobby_rest_node
 ```
 
+To access the Dobby Visualizer go to http://localhost:8080/static/www/index.html
+
 ## Connecting via ssh
 If you genereated keys in erl_sshd before generating the dobby release,
 you can connect to the dobby server's Erlang shell using ssh.
